@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv"
+        android:text="DYNAMIC"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/bta"
+        android:layout_below="@+id/tv"
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Add A"
+    />
+    <Button
+        android:id="@+id/btb"
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Add B"
+        android:layout_toRightOf="@+id/bta"
+        android:layout_below="@id/tv"
+        android:layout_marginLeft="20dp"
+
+    />
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/bta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</RelativeLayout>

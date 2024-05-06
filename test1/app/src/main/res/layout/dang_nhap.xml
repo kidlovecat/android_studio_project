@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEAEA">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dsport Team"
+        android:textAlignment="center"
+        android:textSize="50dp"
+
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/img"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/tv1"
+        tools:layout_editor_absoluteX="80dp"
+
+        />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/login_input"
+        app:layout_constraintTop_toBottomOf="@id/iv1" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/login_input"
+        app:layout_constraintTop_toBottomOf="@id/et1" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:text="Quên mật khẩu"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et2"
+
+        />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybutton"
+        android:text="Đăng nhập"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv2" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Lựa chọn khác"
+
+        app:layout_constraintTop_toBottomOf="@id/bt1"
+        tools:layout_editor_absoluteX="160dp" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/iv2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/facebook_logo"-->
+<!--        android:scaleX=".1"-->
+<!--        android:scaleY="0.1"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/tv3"-->
+<!--        />-->
+</androidx.constraintlayout.widget.ConstraintLayout>

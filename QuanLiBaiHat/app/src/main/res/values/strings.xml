@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">QuanLiChiTieu</string>
+    <string-array name="album">
+        <item>Cho 1 tinh yeu</item>
+        <item>Noi yeu be dai</item>
+        <item>Cay lang-gio ngung</item>
+        <item>Co dung duoc khong</item>
+        <item>Day la mo</item>
+        <item>O giua cuoc doi</item>
+    </string-array>
+    <string-array name="theloai">
+        <item>Country</item>
+        <item>Blues</item>
+        <item>Rock</item>
+        <item>Pop</item>
+
+    </string-array>
+</resources>
